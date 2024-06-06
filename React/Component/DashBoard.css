@@ -1,0 +1,48 @@
+#root{
+    width: 100%;
+    padding: 0%;
+}
+
+.MenuBar{
+    display: flex;
+    position: relative;
+    padding: 1.25rem;
+    margin-bottom: 0%;
+}
+
+.ModeBar{
+    font-size: 1.88rem;
+    padding-right: 5%;
+    display: flex;
+    position: relative;
+    white-space: nowrap;
+}
+
+.ModeBar li{
+    list-style-type: none;
+    padding: 0%;
+    height: auto;
+}
+
+.ModeBar li a{
+    text-align:center;
+    text-decoration: none;
+    display: inline-flex;
+    position: relative;
+    font-weight: 400;
+}
+
+.icon {
+    color: #333333;
+    opacity: 0.3;
+    transition: 1.5s;
+    padding-left: 2%;
+}
+
+a:hover .icon{
+    color: #333333;
+    opacity: 1;
+    transition: 1.5s;
+}
+
+
